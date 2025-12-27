@@ -25,18 +25,49 @@
 ```text
 ╔══════════════════════════════════════════════════════════════════════════════╗
 ║ OMNIPOTENT MASTER AUDIT v4.0                                                 ║
-║ TARGET: https://example.com                                                  ║
+║ TARGET: https://your-target-domain.com                                       ║
 ╚══════════════════════════════════════════════════════════════════════════════╝
+
+┌── BASIC SEO ─────────────────────────────────────────────────────────────────┐
+│ ● Title tag
+│   └─ Your title length is ideal. | Found: Professional Platform...
+│ ● Meta Description
+│   └─ Found highly optimized description.
+│ ● Heading hierarchy
+│   └─ Structure is valid. | Tree: H1 > H2 > H2 > H3
+└──────────────────────────────────────────────────────────────────────────────┘
+
+┌── CONTENT ───────────────────────────────────────────────────────────────────┐
+│ ● Word Count
+│   └─ Count: 1,240 words. (Optimal for ranking)
+│ ● H1 Heading
+│   └─ Found 1 H1 tag. (Perfect)
+│ ● Readability
+│   └─ Avg: 14.2 w/s. (Excellent clarity)
+└──────────────────────────────────────────────────────────────────────────────┘
 
 ┌── SECURITY ──────────────────────────────────────────────────────────────────┐
 │ ● Sensitive Files
-│   └─ Protected. Config files (.env, .git) are safe.
+│   └─ Protected. Config files (.env, .git) are secured.
 │ ● Information Leakage
-│   └─ No tech-stack signatures leaked.
+│   └─ No tech-stack signatures leaked (Server/Stack hidden).
+│ ● Cookie Hardening
+│   └─ Cookies hardened with Secure and HttpOnly flags.
+│ ▲ Security Headers
+│   └─ Missing: Content-Security-Policy (Recommended)
+└──────────────────────────────────────────────────────────────────────────────┘
+
+┌── PERFORMANCE ───────────────────────────────────────────────────────────────┐
+│ ● Response Time
+│   └─ 420.0ms (Ultra-Fast)
+│ ● Minification
+│   └─ All JS/CSS assets are properly minified.
+│ ● Object Breakdown
+│   └─ Total: 12 (JS: 3, CSS: 2, Imgs: 7)
 └──────────────────────────────────────────────────────────────────────────────┘
 
 ┌── FINAL SCORE ───────────────────────────────────────────────────────────────┐
-│ ██████████████████████████████████████░ 98%
+│ ████════════════════════════════════════ 96%
 └──────────────────────────────────────────────────────────────────────────────┘
 ```
 
