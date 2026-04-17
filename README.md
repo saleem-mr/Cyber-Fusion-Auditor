@@ -1,12 +1,35 @@
 # 🛡️ Cyber Fusion Auditor v4.0
 
-[![Python Version](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Stealth](https://img.shields.io/badge/Stealth-Tor%20Enabled-purple.svg)](#)
+<p align="center">
+  <img src="https://img.shields.io/github/stars/saleem-mr/Cyber-Fusion-Auditor?style=for-the-badge&color=gold" alt="GitHub Stars">
+  <img src="https://img.shields.io/github/forks/saleem-mr/Cyber-Fusion-Auditor?style=for-the-badge&color=silver" alt="GitHub Forks">
+  <img src="https://img.shields.io/github/license/saleem-mr/Cyber-Fusion-Auditor?style=for-the-badge" alt="License">
+  <img src="https://img.shields.io/github/issues/saleem-mr/Cyber-Fusion-Auditor?style=for-the-badge&color=red" alt="Issues">
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.8%2B-blue?style=flat-square&logo=python" alt="Python Version">
+  <img src="https://img.shields.io/badge/Stealth-Tor%20Enabled-purple?style=flat-square&logo=tor-browser" alt="Stealth">
+  <img src="https://img.shields.io/badge/Status-Stable-green?style=flat-square" alt="Status">
+</p>
+
+---
 
 > **The Omnipotent Nexus of SEO Intelligence and Cyber-Security Auditing.**
 
 **Cyber Fusion** is a proprietary, high-performance engine designed for webmasters and security researchers. It merges real-time SEO intelligence with deep-scan security heuristics to deliver a comprehensive domain assessment in a single, beautiful CLI interface.
+
+---
+
+## 📋 Table of Contents
+- [🚀 Key Features](#-key-features)
+- [📸 Preview](#-preview)
+- [🛠️ Installation](#️-installation)
+- [📖 Usage](#-usage)
+- [🤝 Contributing](#-contributing)
+- [🛡️ Security](#️-security)
+- [⚠️ Disclaimer](#️-disclaimer)
+- [📜 License](#-license)
 
 ---
 
@@ -50,62 +73,8 @@
 │   └─ Found 8 H2 tags. (Well structured)
 └──────────────────────────────────────────────────────────────────────────────┘
 
-┌── ADVANCED SEO ──────────────────────────────────────────────────────────────┐
-│ ● Sitemap
-│   └─ Sitemap is valid and linked in robots.txt.
-│ ● Broken links
-│   └─ All tested internal links are working.
-│ ● Image alt attributes
-│   └─ All images have descriptive alt text.
-│ ● Robots.txt
-│   └─ Robots.txt is accessible and valid.
-└──────────────────────────────────────────────────────────────────────────────┘
-
-┌── TECHNICAL ─────────────────────────────────────────────────────────────────┐
-│ ● SSL Check
-│   └─ HTTPS Active (Modern TLS 1.3).
-│ ● Schema / JSON-LD
-│   └─ Found 2 Valid Schema blocks (Organization, Article).
-│ ○ Links Ratio
-│   └─ Balanced internal vs external linking profile.
-└──────────────────────────────────────────────────────────────────────────────┘
-
-┌── SECURITY ──────────────────────────────────────────────────────────────────┐
-│ ● Sensitive Files
-│   └─ Protected. Config files (.env, .git) are secured.
-│ ● Information Leakage
-│   └─ No tech-stack signatures leaked (Server/Stack hidden).
-│ ● Cookie Hardening
-│   └─ Cookies hardened with Secure and HttpOnly flags.
-│ ● Form Security
-│   └─ Forms validated for safe data transmission.
-│ ● Email Exposure
-│   └─ No plaintext emails found (Bot protection active).
-└──────────────────────────────────────────────────────────────────────────────┘
-
-┌── PERFORMANCE ───────────────────────────────────────────────────────────────┐
-│ ● Response Time
-│   └─ 420.0ms (Ultra-Fast)
-│ ● Minification
-│   └─ All JS/CSS assets are properly minified.
-│ ● Object Breakdown
-│   └─ Total: 12 (JS: 3, CSS: 2, Imgs: 7)
-└──────────────────────────────────────────────────────────────────────────────┘
-
-┌── SOCIAL ────────────────────────────────────────────────────────────────────┐
-│ ● Social Cards
-│   └─ OG: 9, Twitter: 6 (Fully optimized for sharing)
-└──────────────────────────────────────────────────────────────────────────────┘
-
 ┌── FINAL SCORE ───────────────────────────────────────────────────────────────┐
 │ ██████████████████████████████████████░░ 96%
-└──────────────────────────────────────────────────────────────────────────────┘
-
-┌── DEEP ASSET AUDIT ──────────────────────────────────────────────────────────┐
-│ Scanning for broken links and assets... (Safe mode active)
-│ [200] https://target-domain.com/assets/app.min.css
-│ [200] https://target-domain.com/assets/app.min.js
-│ [✔] Engine Status: All critical assets verified.
 └──────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -116,16 +85,21 @@
 ### 1. Prerequisites
 Ensure you have **Python 3.8+** and **Tor** installed on your system.
 
+#### Linux (Debian/Ubuntu)
 ```bash
-# Linux (Debian/Ubuntu)
-sudo apt install tor torsocks
+sudo apt update && sudo apt install tor torsocks -y
+```
+
+#### macOS
+```bash
+brew install tor
 ```
 
 ### 2. Setup
 Clone the repository and install the high-performance dependencies:
 
 ```bash
-git clone https://github.com/Saleem/Cyber-Fusion-Auditor.git
+git clone https://github.com/saleem-mr/Cyber-Fusion-Auditor.git
 cd Cyber-Fusion-Auditor
 pip install -r requirements.txt
 ```
@@ -155,6 +129,16 @@ python3 cyber_fusion.py -u https://example.com --deep-scan --crawl
 
 ---
 
+## 🤝 Contributing
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**. Please see our [Contributing Guide](CONTRIBUTING.md) and [Code of Conduct](CODE_OF_CONDUCT.md).
+
+---
+
+## 🛡️ Security
+If you discover a security vulnerability, please refer to our [Security Policy](SECURITY.md).
+
+---
+
 ## ⚠️ Disclaimer
 
 **FOR AUTHORIZED AUDITING ONLY.**
@@ -165,4 +149,6 @@ This tool is designed for educational purposes and for webmasters to audit their
 ## 📜 License
 Distributed under the **MIT License**. See `LICENSE` for more information.
 
-**Engine Crafted by Saleem.**
+<p align="center">
+  <b>Engine Crafted by Saleem.</b>
+</p>
