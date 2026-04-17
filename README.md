@@ -1,10 +1,10 @@
 # 🛡️ Cyber Fusion Auditor v4.0
 
 <p align="center">
+  <img src="https://github.com/saleem-mr/Cyber-Fusion-Auditor/actions/workflows/python-app.yml/badge.svg" alt="Build Status">
   <img src="https://img.shields.io/github/stars/saleem-mr/Cyber-Fusion-Auditor?style=for-the-badge&color=gold" alt="GitHub Stars">
   <img src="https://img.shields.io/github/forks/saleem-mr/Cyber-Fusion-Auditor?style=for-the-badge&color=silver" alt="GitHub Forks">
   <img src="https://img.shields.io/github/license/saleem-mr/Cyber-Fusion-Auditor?style=for-the-badge" alt="License">
-  <img src="https://img.shields.io/github/issues/saleem-mr/Cyber-Fusion-Auditor?style=for-the-badge&color=red" alt="Issues">
 </p>
 
 <p align="center">
